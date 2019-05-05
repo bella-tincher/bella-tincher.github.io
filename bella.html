@@ -1,0 +1,136 @@
+<html>
+	<head>
+		<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+		<script src="./bella.js"></script>
+
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<style>
+		body{
+			font-family: 'Fira Mono', monospace;
+		}
+		#header{
+			font-size:25px;
+			padding-top:10px;
+		}
+		#storm{
+			height:300px;
+			width:250px;
+		}
+		#gen{
+			font-size:20px;
+		}
+		.reg{
+			font-size:17px;
+		}
+		.labl{
+			font-weight: bold;
+			font-size:20px;
+		}
+		#iden{
+			font-size:20px;
+			padding-bottom:20px;
+		}
+		.id{
+			font-weight:bold;
+		}
+
+		</style>
+	</head>
+	<body>
+		<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			<p id="header" class="text-center">Identity in the Eye of the Storm </span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="text-center">
+					<img src="./storm.png" class="img-fluid" id="storm">
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="text-center">
+				<p id="gen" class="text-center"> Generate your identity!</p>
+				</div>
+			</div>
+		</div>
+		<div class='row'>
+			<div class="col-md-12">
+				<div class="text-center">
+			 	<button type="button" id="generate" class="btn btn-info">Generate</button> 
+			 	</div>
+			 </div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<p class="text-center labl">
+				Race
+				</p>
+			</div>
+			<div class="col-md-6">
+				<p class="text-center labl">
+				Income
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6" id="white">
+				<p class="text-center reg">
+				White
+				</p>
+			</div>
+			<div class="col-md-6" id="highIn">
+				<p class="text-center reg">
+				High Income
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6" id="black">
+				<p class="text-center reg">
+				Black
+				</p>
+			</div>
+			<div class="col-md-6" id="mediumIn">
+				<p class="text-center reg">
+				Medium Income
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6" id="latinx">
+				<p class="text-center reg">
+				Latinx
+				</p>
+			</div>
+			<div class="col-md-6" id="lowIn">
+				<p class="text-center reg">
+				Low Income
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6" id="asian">
+				<p class="text-center reg">
+				Asian
+				</p>
+			</div>
+			<div class="col-md-6">
+				<p class="text-center reg">
+				
+				</p>
+			</div>
+		</div>
+		<div class="row" id="identity">
+		</div>
+	</body>
+
+</html>
